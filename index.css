@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+nav {
+  height: 30px;
+  margin-left: 20%;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding: 5px 15px;
+  font-size: 0.8em;
+  display: inline-block;
+}
+.home {
+  background-image: url("./img/banner.jpg");
+  background-size: cover;
+  color: white;
+  height: 250px;
+  font-family: "Roboto", sans-serif;
+}
+.yellow {
+  color: rgb(243, 227, 4);
+}
+.red {
+  color: rgb(238, 2, 2);
+}
+.blue {
+  color: rgb(2, 2, 231);
+}
+h1 {
+    border-bottom: #ffffff 3px solid;
+    width: 200px;
+    padding: 60px 0 10px 0;
+    font-weight: 900;
+  }
+.logo {
+    position: relative;
+    left: 20%;
+}
+.mission {
+  background-color: #ffe964;
+  height: 250px;
+  padding: 40px 15%;
+  text-align: center;
+}
+.mission p {
+  font-size: 0.85em;
+}
+.aboutus {
+  background-color: #ffffff;
+  height: 350px;
+  padding: 40px 15%;
+  text-align: left;
+}
+.aboutus p {
+  font-size: 0.85em;
+}
+.ourteam {
+  background-color: #ff523d;
+  height: 1100px;
+  color: white;
+  padding: 40px 15%;
+}
+.people {
+    margin-left: 10%;
+    text-align: center;
+}
+img {
+  width: 25%;
+  margin-bottom: 20px;
+}
+.contact {
+  background-color: #223c88;
+  height: 300px;
+  color: white;
+  padding: 40px 15%;
+}
+.contact p {
+  font-size: 0.75em;
+}
+.contact h3 {
+  font-weight: 700;
+}
+p,
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+h2,
+h4 {
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 2em;
+}
+h3,
+h4 {
+  font-size: 0.9em;
+}
